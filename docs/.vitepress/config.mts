@@ -26,8 +26,16 @@ export default defineConfig({
         items: [
           { text: "4.1.4 确定类型" },
           { text: "4.2 执行上下文与作用域" },
+          { text: "4.3 垃圾回收" },
+          { text: "4.4 小结" },
         ],
       },
+      {
+        text: "面试题-暂时整理",
+        items: [
+          { text: "面试题-暂时整理" }
+        ]
+      }
     ].map((item) => {
       return {
         ...item,
